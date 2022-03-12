@@ -50,6 +50,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# Vibrator
+OPLUS_DEVICE_USES_QTI_VIBRATOR := true
+
 # Inherit from oplus sm8350-common
 $(call inherit-product, device/oplus/sm8350-common/common.mk)
 
