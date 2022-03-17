@@ -57,4 +57,4 @@ OPLUS_DEVICE_USES_QTI_VIBRATOR := true
 $(call inherit-product, device/oplus/sm8350-common/common.mk)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/oplus/RMX3360/RMX3360-vendor.mk)
+$(call inherit-product, vendor/oplus/RMX2202/RMX2202-vendor.mk)

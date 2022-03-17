@@ -17,7 +17,7 @@
 # Inherit from oplus sm8350-common
 -include device/oplus/sm8350-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oplus/RMX3360
+DEVICE_PATH := device/oplus/RMX2202
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
@@ -27,18 +27,18 @@ TARGET_SCREEN_DENSITY := 450
 
 # Kernel
 TARGET_FORCE_PREBUILT_KERNEL := true
-TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/RMX3360/Image.gz
-BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/RMX3360/dtbo.img
-TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/RMX3360/dtb.img
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/RMX2202/Image.gz
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/RMX2202/dtbo.img
+TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/RMX2202/dtb.img
 BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 
 # Copy kernel modules to vendor_boot and vendor_dlkm
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/oplus/sm8350-common/RMX3360_vendor_dlkm,$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules) \
-    $(call find-copy-subdir-files,*,vendor/oplus/sm8350-common/RMX3360_vendor_ramdisk,$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/modules)
+    $(call find-copy-subdir-files,*,vendor/oplus/sm8350-common/RMX2202_vendor_dlkm,$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules) \
+    $(call find-copy-subdir-files,*,vendor/oplus/sm8350-common/RMX2202_vendor_ramdisk,$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/modules)
     
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # inherit from the proprietary version
--include vendor/oplus/RMX3360/BoardConfigVendor.mk
+-include vendor/oplus/RMX2202/BoardConfigVendor.mk
