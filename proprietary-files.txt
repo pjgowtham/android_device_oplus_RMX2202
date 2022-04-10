@@ -947,6 +947,14 @@ odm/etc/nfc/libnfc-mtp-SN100.conf_21617
 odm/etc/nfc/libnfc-mtp-SN100.conf_216B2
 
 # Sensors
+odm/etc/sensor/config/lahaina_qrd_alsps.json
+odm/etc/sensor/config/lahaina_qrd_bmi160.json
+odm/etc/sensor/config/lahaina_qrd_icm4x607.json
+odm/etc/sensor/config/lahaina_qrd_mmc56x3x.json
+odm/etc/sensor/config/lahaina_qrd_mn29005.json
+odm/etc/sensor/config/lahaina_qrd_tsl2540.json
+odm/etc/sensor/sensor_config.json
+odm/etc/sensor.cfg
 vendor/etc/sensors/config/lahaina_default_sensors.json
 vendor/etc/sensors/config/lahaina_dynamic_sensors.json
 vendor/etc/sensors/config/lahaina_irq.json
