@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/oplus/RMX3360
+DEVICE_PATH := device/oplus/RMX2202
 
 # Include the common OEM chipset BoardConfig.
 include device/oplus/sm8350-common/BoardConfigCommon.mk
