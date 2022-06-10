@@ -110,8 +110,6 @@ odm/firmware/tfa98xx.cnt
 
 # Bluetooth Firmware
 odm/etc/bt/hpnv10.bin
-odm/etc/bt/hpnv10_1.bin
-odm/etc/bt/second_rf.conf
 
 # Camera
 odm/etc/camera/config/camera_unit_config
