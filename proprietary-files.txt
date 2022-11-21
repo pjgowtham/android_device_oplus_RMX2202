@@ -602,10 +602,5 @@ odm/etc/sensor/config/lahaina_qrd_tsl2540.json
 odm/etc/sensor/sensor_config.json
 odm/etc/sensor.cfg
 
-# Vibrator
-odm/bin/hw/vendor.qti.hardware.vibrator.service:vendor/bin/hw/vendor.qti.hardware.vibrator.service.oplus
-odm/lib64/vendor.qti.hardware.vibrator.impl.so:vendor/lib64/vendor.qti.hardware.vibrator.impl.so
-odm/lib64/libqtivibratoreffect.so:vendor/lib64/libqtivibratoreffect.so
-
 # WiFi
 odm/etc/wifi/bdwlan.elf
