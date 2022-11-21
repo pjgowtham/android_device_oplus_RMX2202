@@ -11,26 +11,21 @@ odm/etc/acdbdata/Headset_cal.acdb
 odm/etc/acdbdata/Speaker_cal.acdb
 
 # ADSP modules
+odm/lib/rfsa/adsp/aiboost/libaiboostubwc_skel.so
 odm/lib/rfsa/adsp/aiboost/libQnnHtpAltPrepSkel.so
 odm/lib/rfsa/adsp/aiboost/libQnnHtpSkel.so
-odm/lib/rfsa/adsp/aiboost/libaiboostubwc_skel.so
-odm/lib/rfsa/adsp/libQnnHtp.so
-odm/lib/rfsa/adsp/libQnnHtpAltPrepSkel.so
-odm/lib/rfsa/adsp/libQnnHtpSkel.so
-odm/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so
 odm/lib/rfsa/adsp/libaiboost_skel.so
 odm/lib/rfsa/adsp/libaiboost_skel_v65.so
 odm/lib/rfsa/adsp/libaiboost_skel_v66.so
-odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_5221_skel.so
 odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
+odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel_20627.so
 odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so
-odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel_21603.so
+odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_20627.so
 odm/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so
-odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_21603.so
-odm/lib/rfsa/adsp/libc++.so.1
 odm/lib/rfsa/adsp/libc++abi.so.1
 odm/lib/rfsa/adsp/libcalculator_domains_skel.so
 odm/lib/rfsa/adsp/libcalculator_skel.so
+odm/lib/rfsa/adsp/libc++.so.1
 odm/lib/rfsa/adsp/libhdr_skel.so
 odm/lib/rfsa/adsp/libhvxFaceBeautyPre_skel.so
 odm/lib/rfsa/adsp/libktvdrc.so
@@ -40,6 +35,9 @@ odm/lib/rfsa/adsp/libktvns.so
 odm/lib/rfsa/adsp/libktvpitchshift.so
 odm/lib/rfsa/adsp/libktvreverb.so
 odm/lib/rfsa/adsp/libktvvolume.so
+odm/lib/rfsa/adsp/libQnnHtpAltPrepSkel.so
+odm/lib/rfsa/adsp/libQnnHtpSkel.so
+odm/lib/rfsa/adsp/libQnnHtp.so
 odm/lib/rfsa/adsp/libsnpe_dsp_domains_skel.so
 odm/lib/rfsa/adsp/libsnpe_dsp_skel.so
 odm/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so
@@ -48,25 +46,20 @@ odm/lib/rfsa/adsp/libsnpe_dsp_v68_domains_v3_skel.so
 odm/lib/rfsa/adsp/libsnpe_htp_v65_skel.so
 odm/lib/rfsa/adsp/libsnpe_htp_v66_skel.so
 odm/lib/rfsa/adsp/libsnpe_htp_v68_skel.so
-odm/lib/rfsa/adsp/libvdblurless_4.6.10P_skel.so
+odm/lib/rfsa/adsp/libvdblurless_4.6.10I_skel.so
 odm/lib/rfsa/adsp/libvdblurless_skel.so
+odm/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so
 odm/lib/rfsa/adsp/libvdsuperphoto_skel.so
-odm/lib/rfsa/adsp/libworker_pool.so
 vendor/lib/rfsa/adsp/bm2n06.bin
 vendor/lib/rfsa/adsp/bm2n08.bin
+vendor/lib/rfsa/adsp/bm2n12.bin
 vendor/lib/rfsa/adsp/bm2n13.bin
 vendor/lib/rfsa/adsp/bm2n14.bin
 vendor/lib/rfsa/adsp/bm2n15.bin
-vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so
-vendor/lib/rfsa/adsp/libQ6MSFR_manager_skel.so
-vendor/lib/rfsa/adsp/libQnnHtpAltPrepSkel.so
-vendor/lib/rfsa/adsp/libVppAisQnnHtp.so
-vendor/lib/rfsa/adsp/libVppFrcQnnHtp.so
-vendor/lib/rfsa/adsp/libVppQnnHtp.so
+vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
 vendor/lib/rfsa/adsp/libadsp_jpege_skel.so
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
-vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_5221_skel.so
 vendor/lib/rfsa/adsp/libbitml_nsp_skel.so
 vendor/lib/rfsa/adsp/libbitml_nsp_v2_skel.so
 vendor/lib/rfsa/adsp/libcamera_nn_skel.so
@@ -77,19 +70,23 @@ vendor/lib/rfsa/adsp/libfastcvadsp.so
 vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
 vendor/lib/rfsa/adsp/libhdr_skel.so
 vendor/lib/rfsa/adsp/libmctfengine_skel.so
-vendor/lib/rfsa/adsp/libmobilenet_dsp_frc.so
 vendor/lib/rfsa/adsp/libmobilenet_dsp_frc_networks.so
+vendor/lib/rfsa/adsp/libmobilenet_dsp_frc.so
 vendor/lib/rfsa/adsp/libosie_skel.so
+vendor/lib/rfsa/adsp/libpmucount_skel.so
+vendor/lib/rfsa/adsp/libQ6MSFR_manager_skel.so
+vendor/lib/rfsa/adsp/libQnnHtpAltPrepSkel.so
 vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
 vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 vendor/lib/rfsa/adsp/libsuper_res_networks.so
 vendor/lib/rfsa/adsp/libvpp_ais_networks.so
+vendor/lib/rfsa/adsp/libVppAisQnnHtp.so
+vendor/lib/rfsa/adsp/libVppFrcQnnHtp.so
+vendor/lib/rfsa/adsp/libVppQnnHtp.so
 vendor/lib/rfsa/adsp/libvpt_action_recognition.so
 vendor/lib/rfsa/adsp/libworker_pool.so
-vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
-vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
 
 # Audio firmware
 odm/firmware/tfa98xx.cnt
@@ -123,7 +120,7 @@ odm/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt
 odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt
 
 # Bluetooth Firmware
-odm/etc/bt/msnv11_ch1.bin
+odm/etc/bt/hpnv10.bin
 
 # Camera
 odm/etc/camera/ancsegbase/anc_cl_kernel.cache
@@ -471,53 +468,53 @@ odm/lib64/vendor.oplus.hardware.commondcs@1.0.so
 odm/lib64/vendor.oplus.hardware.performance@1.0.so
 
 # Firmware (Fingerprint)
-odm/vendor/firmware/ancap64.b00
-odm/vendor/firmware/ancap64.b01
-odm/vendor/firmware/ancap64.b02
-odm/vendor/firmware/ancap64.b03
-odm/vendor/firmware/ancap64.b04
-odm/vendor/firmware/ancap64.b05
-odm/vendor/firmware/ancap64.b06
-odm/vendor/firmware/ancap64.b07
-odm/vendor/firmware/ancap64.mdt
+odm/vendor/firmware/goodixfp.b00
+odm/vendor/firmware/goodixfp.b01
+odm/vendor/firmware/goodixfp.b02
+odm/vendor/firmware/goodixfp.b03
+odm/vendor/firmware/goodixfp.b04
+odm/vendor/firmware/goodixfp.b05
+odm/vendor/firmware/goodixfp.b06
+odm/vendor/firmware/goodixfp.b07
+odm/vendor/firmware/goodixfp.mdt
 
 # Firmwre (IPA)
-vendor/firmware/yupik_ipa_fws.b00
-vendor/firmware/yupik_ipa_fws.b01
-vendor/firmware/yupik_ipa_fws.b02
-vendor/firmware/yupik_ipa_fws.b03
-vendor/firmware/yupik_ipa_fws.b04
-vendor/firmware/yupik_ipa_fws.elf
-vendor/firmware/yupik_ipa_fws.mdt
+vendor/firmware/ipa_fws.b00
+vendor/firmware/ipa_fws.b01
+vendor/firmware/ipa_fws.b02
+vendor/firmware/ipa_fws.b03
+vendor/firmware/ipa_fws.b04
+vendor/firmware/ipa_fws.elf
+vendor/firmware/ipa_fws.mdt
 
 # Firmware (Touchpanel)
-odm/firmware/tp/21603/FW_FT3518_SAMSUNG.img
-odm/firmware/tp/21603/FW_FT3518_SAMSUNG_FAE.img
-odm/firmware/tp/21603/LIMIT_FT3518_SAMSUNG.img
+odm/firmware/tp/20627/FW_FT3518_SAMSUNG_FAE.img
+odm/firmware/tp/20627/FW_FT3518_SAMSUNG.img
+odm/firmware/tp/20627/LIMIT_FT3518_SAMSUNG.img
 
 # Firmware (VPU)
-vendor/firmware/vpu20_1v.b01
-vendor/firmware/vpu20_1v.b02
-vendor/firmware/vpu20_1v.b03
-vendor/firmware/vpu20_1v.b04
-vendor/firmware/vpu20_1v.b05
-vendor/firmware/vpu20_1v.b06
-vendor/firmware/vpu20_1v.b07
-vendor/firmware/vpu20_1v.b08
-vendor/firmware/vpu20_1v.b09
-vendor/firmware/vpu20_1v.b10
-vendor/firmware/vpu20_1v.b11
-vendor/firmware/vpu20_1v.b12
-vendor/firmware/vpu20_1v.b13
-vendor/firmware/vpu20_1v.b14
-vendor/firmware/vpu20_1v.b15
-vendor/firmware/vpu20_1v.b16
-vendor/firmware/vpu20_1v.b17
-vendor/firmware/vpu20_1v.b18
-vendor/firmware/vpu20_1v.b19
-vendor/firmware/vpu20_1v.mbn
-vendor/firmware/vpu20_1v.mdt
-vendor/firmware/vpu20_1v_unsigned.mbn
+vendor/firmware/vpu20_4v.b01
+vendor/firmware/vpu20_4v.b02
+vendor/firmware/vpu20_4v.b03
+vendor/firmware/vpu20_4v.b04
+vendor/firmware/vpu20_4v.b05
+vendor/firmware/vpu20_4v.b06
+vendor/firmware/vpu20_4v.b07
+vendor/firmware/vpu20_4v.b08
+vendor/firmware/vpu20_4v.b09
+vendor/firmware/vpu20_4v.b10
+vendor/firmware/vpu20_4v.b11
+vendor/firmware/vpu20_4v.b12
+vendor/firmware/vpu20_4v.b13
+vendor/firmware/vpu20_4v.b14
+vendor/firmware/vpu20_4v.b15
+vendor/firmware/vpu20_4v.b16
+vendor/firmware/vpu20_4v.b17
+vendor/firmware/vpu20_4v.b18
+vendor/firmware/vpu20_4v.b19
+vendor/firmware/vpu20_4v.mbn
+vendor/firmware/vpu20_4v.mdt
+vendor/firmware/vpu20_4v_unsigned.mbn
 
 # Graphics (Adreno)
 vendor/lib/egl/eglSubDriverAndroid.so
@@ -568,13 +565,6 @@ vendor/firmware/a660_zap.mdt
 vendor/lib/hw/vulkan.adreno.so
 vendor/lib64/hw/vulkan.adreno.so
 
-# Media
-vendor/etc/media_codecs_yupik_v1.xml
-vendor/etc/media_codecs_performance_yupik_v1.xml
-vendor/etc/media_profiles_vendor.xml
-vendor/etc/media_profiles_yupik_v1.xml
-vendor/etc/media_yupik_v1/video_system_specs.json
-
 # NFC
 odm/etc/init/init.st54x.nfc.rc
 odm/etc/nfc/libnfc-st21h_conf.txt_21675:vendor/etc/libnfc-st21h_conf.txt
@@ -591,62 +581,15 @@ odm/etc/21675/build.tr.prop
 odm/etc/21675/flags.prop
 
 # Sensors
-odm/etc/sensor/config/alsps.json
-odm/etc/sensor/config/kodiak_ak991x_0.json
-odm/etc/sensor/config/kodiak_alsps.json
-odm/etc/sensor/config/kodiak_bmi3x0_0.json
-odm/etc/sensor/config/kodiak_icm4x6xx_0.json
-odm/etc/sensor/config/kodiak_lsm6ds3c_0.json
-odm/etc/sensor/config/kodiak_mmc5603x_0.json
-odm/etc/sensor/config/kodiak_mmc56x3x_0.json
+odm/etc/sensor/sensor_config.json
+odm/etc/sensor/config/lahaina_qrd_alsps.json
+odm/etc/sensor/config/lahaina_qrd_bmi160.json
+odm/etc/sensor/config/lahaina_qrd_icm4x607.json
+odm/etc/sensor/config/lahaina_qrd_mmc56x3x.json
+odm/etc/sensor/config/lahaina_qrd_mn29005.json
+odm/etc/sensor/config/lahaina_qrd_tsl2540.json
 odm/etc/sensor/sensor_config.json
 odm/etc/sensor.cfg
-vendor/etc/sensors/config/faroe_ak991x_0.json
-vendor/etc/sensors/config/faroe_bu52053nvx_0.json
-vendor/etc/sensors/config/faroe_default_sensors.json
-vendor/etc/sensors/config/faroe_dynamic_sensors.json
-vendor/etc/sensors/config/faroe_idp_ak991x_0.json
-vendor/etc/sensors/config/faroe_idp_lsm6dst_0.json
-vendor/etc/sensors/config/faroe_idp_lsm6dst_1.json
-vendor/etc/sensors/config/faroe_irq.json
-vendor/etc/sensors/config/faroe_lps22hh_0.json
-vendor/etc/sensors/config/faroe_lsm6dst_0.json
-vendor/etc/sensors/config/faroe_lsm6dst_1.json
-vendor/etc/sensors/config/faroe_power_0.json
-vendor/etc/sensors/config/faroe_qrd_ak991x_0.json
-vendor/etc/sensors/config/faroe_qrd_lsm6dst_0.json
-vendor/etc/sensors/config/faroe_qrd_sx932x_0.json
-vendor/etc/sensors/config/faroe_qrd_tmd3702_0.json
-vendor/etc/sensors/config/faroe_sx932x_0.json
-vendor/etc/sensors/config/faroe_tmd3702_0.json
-vendor/etc/sensors/config/faroe_vertigo_ak991x_0.json
-vendor/etc/sensors/config/faroe_vertigo_lsm6dst_0.json
-vendor/etc/sensors/config/faroe_vertigo_lsm6dst_1.json
-vendor/etc/sensors/config/kodiak_bu52053nvx_0.json
-vendor/etc/sensors/config/kodiak_default_sensors.json
-vendor/etc/sensors/config/kodiak_dynamic_sensors.json
-vendor/etc/sensors/config/kodiak_idp_ak991x_0.json
-vendor/etc/sensors/config/kodiak_idp_lsm6dst_0.json
-vendor/etc/sensors/config/kodiak_idp_lsm6dst_1.json
-vendor/etc/sensors/config/kodiak_irq.json
-vendor/etc/sensors/config/kodiak_lps22hh_0.json
-vendor/etc/sensors/config/kodiak_lsm6dst_0.json
-vendor/etc/sensors/config/kodiak_lsm6dst_1.json
-vendor/etc/sensors/config/kodiak_power_0.json
-vendor/etc/sensors/config/kodiak_qrd_ak991x_0.json
-vendor/etc/sensors/config/kodiak_qrd_ak991x_1.json
-vendor/etc/sensors/config/kodiak_qrd_lsm6dst_0.json
-vendor/etc/sensors/config/kodiak_qrd_sx932x_0.json
-vendor/etc/sensors/config/kodiak_qrd_tmd3702_0.json
-vendor/etc/sensors/config/kodiak_sx932x_0.json
-vendor/etc/sensors/config/kodiak_tmd3702_0.json
-vendor/etc/sensors/config/kodiak_vertigo_ak991x_0.json
-vendor/etc/sensors/config/kodiak_vertigo_lsm6dst_0.json
-vendor/etc/sensors/config/kodiak_vertigo_lsm6dst_1.json
-vendor/etc/sensors/config/lahaina_hhg_ak991x_0.json
-vendor/etc/sensors/config/lahaina_hhg_lsm6dst_0.json
-vendor/etc/sensors/config/lahaina_hhg_sx9302x_0.json
-vendor/etc/sensors/config/lahaina_hhg_tmd3702_0.json
 
 # Vibrator
 odm/bin/hw/vendor.qti.hardware.vibrator.service:vendor/bin/hw/vendor.qti.hardware.vibrator.service.oplus
