@@ -12,6 +12,9 @@ include device/oplus/sm8350-common/BoardConfigCommon.mk
 # Display
 TARGET_SCREEN_DENSITY := 450
 
+# NFC
+OPLUS_DEVICE_USES_SNXXX_NFC := true
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 

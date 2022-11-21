@@ -456,6 +456,13 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/CAMERA_ICP_170.elf
 
+# ESE
+odm/bin/hw/vendor.qti.esepowermanager@1.1-service
+odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc
+odm/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
+odm/lib64/vendor.qti.esepowermanager@1.0.so
+odm/lib64/vendor.qti.esepowermanager@1.1.so
+
 # Fingerprint
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
 odm/bin/init.oplus.fingerprints.sh
@@ -566,10 +573,9 @@ vendor/lib/hw/vulkan.adreno.so
 vendor/lib64/hw/vulkan.adreno.so
 
 # NFC
-odm/etc/init/init.st54x.nfc.rc
-odm/etc/nfc/libnfc-st21h_conf.txt_21675:vendor/etc/libnfc-st21h_conf.txt
-odm/etc/nfc/st21nfc_fw.bin_st21h:vendor/firmware/st21nfc_fw.bin
-odm/etc/nfc/st21nfc_fw7.bin_st21h:vendor/firmware/st21nfc_fw7.bin
+odm/etc/nfc/libnfc-mtp-SN100.conf_20664:vendor/etc/libnfc-mtp-SN100.conf
+odm/etc/nfc/libnfc-nci.conf_20664:vendor/etc/libnfc-nci.conf
+odm/lib/libsn100u_fw.so:vendor/lib/libsn100u_fw.so
 
 # Recovery
 odm/etc/21675/build.default.prop
@@ -579,6 +585,11 @@ odm/etc/21675/build.ru.prop
 odm/etc/21675/build.t2.prop
 odm/etc/21675/build.tr.prop
 odm/etc/21675/flags.prop
+
+# Secure element
+odm/bin/hw/vendor.qti.secure_element@1.2-service
+odm/etc/init/vendor.qti.secure_element@1.2-service.rc
+odm/lib64/android.hardware.secure_element@1.0-impl.so
 
 # Sensors
 odm/etc/sensor/sensor_config.json
